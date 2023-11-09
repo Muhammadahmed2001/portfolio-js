@@ -1,0 +1,25 @@
+* {
+  background-color: black;
+}
+.nav {
+  color: #00a99d !important;
+  font-family: cursive;
+  font-size: 25px;
+}
+.navbar {
+  background-color: black !important;
+  box-shadow: rgb(0, 169, 157) 0px -4px 0px, rgb(0, 169, 157) 0px -5px 67px,
+    rgb(0, 169, 157) 0px 0px 0px, rgb(0, 169, 157) 0px 6px 7px,
+    rgb(0, 169, 157) 0px 0px 0px;
+    
+}
+.nav-link{
+    color: antiquewhite !important;
+    font-family: cursive;
+    font-size: 25px;
+}
+.nav-li{
+   margin-left: 700px;
+}
+
+
