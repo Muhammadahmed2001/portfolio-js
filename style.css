@@ -1,6 +1,10 @@
 * {
   background-color: black;
 }
+body{
+  color: antiquewhite !important;
+  background-color: black !important;
+}
 .nav {
   color: #00a99d !important;
   font-family: cursive;
@@ -21,5 +25,56 @@
 .nav-li{
    margin-left: 700px;
 }
+.top-heading{
+  text-align: center;
+  color: #00a99d;
+  margin-top: 50px;
+}
+.detail-pra{
+  font-weight: bolder;
+}
+.about-me-main{
+  display: flex;
+
+}
+.about-ani{
+  width: 50%;
+}
+.about-text{
+  width: 50%;
+  margin-top: 150px;
+}
+.name{
+  color: #00a99d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
