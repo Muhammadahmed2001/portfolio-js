@@ -1,50 +1,61 @@
-* {
+/* * {
   background-color: black;
-}
-body{
+  color: antiquewhite;
+} */
+body {
   color: antiquewhite !important;
   background-color: black !important;
 }
+
 .nav {
   color: #00a99d !important;
   font-family: cursive;
   font-size: 25px;
 }
+
 .navbar {
   background-color: black !important;
   box-shadow: rgb(0, 169, 157) 0px -4px 0px, rgb(0, 169, 157) 0px -5px 67px,
     rgb(0, 169, 157) 0px 0px 0px, rgb(0, 169, 157) 0px 6px 7px,
     rgb(0, 169, 157) 0px 0px 0px;
-    
+
 }
-.nav-link{
-    color: antiquewhite !important;
-    font-family: cursive;
-    font-size: 25px;
+
+.nav-link {
+  color: antiquewhite !important;
+  font-family: cursive;
+  font-size: 25px;
 }
-.nav-li{
-   margin-left: 700px;
+
+.nav-link:hover {
+  color: #00a99d !important;
 }
-.top-heading{
+
+.top-heading {
   text-align: center;
   color: #00a99d;
   margin-top: 50px;
 }
-.detail-pra{
+
+.detail-pra {
   font-weight: bolder;
 }
-.about-me-main{
+
+.about-me-main {
   display: flex;
 
 }
-.about-ani{
+
+.about-ani {
   width: 50%;
 }
-.about-text{
+
+.about-text {
   width: 50%;
   margin-top: 150px;
 }
-.name{
+
+.name {
   color: #00a99d;
 }
 
@@ -55,26 +66,226 @@ body{
 
 
 
+/* * progress bar style */
+
+.progress2 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2-html {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved-html .progress-bar2-html {
+  width: 85%;
+  background-color: #00a99d;
+  animation: progressAnimationHtml 6s;
+}
+
+@keyframes progressAnimationHtml {
+  0% {
+    width: 5%;
+    background-color: #dbfffd;
+  }
+
+  100% {
+    width: 85%;
+    background-color: #00a99d;
+  }
+}
+
+.progress-bar2-boot {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved-boot .progress-bar2-boot {
+  width: 80%;
+  background-color: #00a99d;
+  animation: progressAnimationBoot 6s;
+}
+
+@keyframes progressAnimationBoot {
+  0% {
+    width: 5%;
+    background-color: #dbfffd;
+  }
+
+  100% {
+    width: 80%;
+    background-color: #00a99d;
+  }
+}
+
+.progress-bar2-java {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved-java .progress-bar2-java {
+  width: 70%;
+  background-color: #00a99d;
+  animation: progressAnimationJava 6s;
+}
+
+@keyframes progressAnimationJava {
+  0% {
+    width: 5%;
+    background-color: #dbfffd;
+  }
+
+  100% {
+    width: 70%;
+    background-color: #00a99d;
+  }
+}
+
+.progress-bar2-firebase {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved-firebase .progress-bar2-firebase {
+  width: 75%;
+  background-color: #00a99d;
+  animation: progressAnimationFirebase 6s;
+}
+
+@keyframes progressAnimationFirebase {
+  0% {
+    width: 5%;
+    background-color: #dbfffd;
+  }
+
+  100% {
+    width: 75%;
+    background-color: #00a99d;
+  }
+}
+
+.progress-bar2-react {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved-react .progress-bar2-react {
+  width: 80%;
+  background-color: #00a99d;
+  animation: progressAnimationReact 6s;
+}
+
+@keyframes progressAnimationReact {
+  0% {
+    width: 5%;
+    background-color: #dbfffd;
+  }
+
+  100% {
+    width: 80%;
+    background-color: #00a99d;
+  }
+}
+
+/* progress bar style */
 
 
 
 
+.resume-main {
+  display: flex;
+
+}
+
+.resume-pic {
+  width: 50%;
+}
+
+.resume-btn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
+/* Resume btn style  */.btn {
+  width: 140px;
+  height: 50px;
+  background-color: #00a99d !important;
+  /* background: linear-gradient(to top, #00154c, #12376e, #23487f); */
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 169, 158, 0.5);
+  overflow: hidden;
+}
 
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
 
+.btn-text-one {
+  font-weight: bolder;
+  color: antiquewhite;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
 
+.btn-text-two {
+  font-weight: bolder;
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
 
+.btn:hover .btn-text-one {
+  top: -100%;
+}
 
+.btn:hover .btn-text-two {
+  top: 50%;
+}
 
-
-
-
-
-
-
-
-
-
-
+/* Resume btn style  */
