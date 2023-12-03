@@ -1,7 +1,3 @@
-/* * {
-  background-color: black;
-  color: antiquewhite;
-} */
 body {
   color: antiquewhite !important;
   background-color: black !important;
@@ -11,6 +7,7 @@ body {
   color: #00a99d !important;
   font-family: cursive;
   font-size: 25px;
+  font-weight: bolder;
 }
 
 .navbar {
@@ -18,7 +15,6 @@ body {
   box-shadow: rgb(0, 169, 157) 0px -4px 0px, rgb(0, 169, 157) 0px -5px 67px,
     rgb(0, 169, 157) 0px 0px 0px, rgb(0, 169, 157) 0px 6px 7px,
     rgb(0, 169, 157) 0px 0px 0px;
-
 }
 
 .nav-link {
@@ -34,7 +30,7 @@ body {
 .top-heading {
   text-align: center;
   color: #00a99d;
-  margin-top: 50px;
+  margin-top: 15%;
 }
 
 .detail-pra {
@@ -43,7 +39,6 @@ body {
 
 .about-me-main {
   display: flex;
-
 }
 
 .about-ani {
@@ -52,19 +47,25 @@ body {
 
 .about-text {
   width: 50%;
-  margin-top: 150px;
+  margin-top: 15%;
 }
 
 .name {
   color: #00a99d;
 }
 
-
-
-
-
-
-
+@media only screen and (max-width: 992px) {
+  .about-me-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .about-ani{
+    width: 100%;
+  }
+}
 
 /* * progress bar style */
 
@@ -79,9 +80,11 @@ body {
 .progress-bar2-html {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -107,9 +110,11 @@ body {
 .progress-bar2-boot {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -135,9 +140,11 @@ body {
 .progress-bar2-java {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -163,9 +170,11 @@ body {
 .progress-bar2-firebase {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -191,9 +200,11 @@ body {
 .progress-bar2-react {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -218,12 +229,8 @@ body {
 
 /* progress bar style */
 
-
-
-
 .resume-main {
   display: flex;
-
 }
 
 .resume-pic {
@@ -237,9 +244,8 @@ body {
   align-items: center;
 }
 
-
-
-/* Resume btn style  */.btn {
+/* Resume btn style  */
+.btn {
   width: 140px;
   height: 50px;
   background-color: #00a99d !important;
@@ -288,4 +294,20 @@ body {
   top: 50%;
 }
 
-/* Resume btn style  */
+
+
+@media only screen and (max-width: 425px) {
+.resume-main{
+  display: flex;
+  flex-direction: column;
+}
+.resume-pic{
+  width: 100%;
+}
+.resume-btn{
+  width: 100%;
+}
+.nav{
+  font-size: 15px !important;
+}
+}
