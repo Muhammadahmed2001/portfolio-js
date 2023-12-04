@@ -311,3 +311,11 @@ body {
   font-size: 15px !important;
 }
 }
+
+
+.card-img-top{
+  opacity: 0.7;
+}
+.project-main{
+  margin-top: 7%;
+}
