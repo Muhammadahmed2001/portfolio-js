@@ -37,7 +37,7 @@ body {
 .top-heading {
   text-align: center;
   color: #00a99d;
-  margin-top: 15%;
+  margin-top: 100px !important;
 }
 
 .detail-pra {
