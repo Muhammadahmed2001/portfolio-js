@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -43,24 +44,24 @@
   <div  class="container">
     <div >
      </div>
-      <div class="top-heading animate__animated animate__fadeInUp">
+      <div data-aos="fade-up" class="top-heading">
         <h1>About Me</h1>
       </div>
-      <div class="about-me-main">
-        <div class="about-text animate__animated animate__fadeInLeft">
+      <div  class="about-me-main">
+        <div data-aos="fade-right" class="about-text">
           <h2>Hi, I Am <span class="name">Muhammad Ahmed</span></h2>
           <h5 className="detail-pra">
             I was born on February 12th, 2001. I am a skilled web developer with a
             passion for creating efficient and visually appealing websites.
           </h5>
         </div>
-        <div class="about-ani animate__animated animate__fadeInRight">
+        <div data-aos="fade-left" class="about-ani">
           <img src="./assits/developer-gif.gif" width="100%" alt="">
         </div>
       </div>
     <div id="skill">
     </div>
-    <div class="top-heading animate__animated animate__fadeInUp">
+    <div data-aos="fade-up" class="top-heading ">
       <h1>Skills</h1>
     </div>
     <div class="skill">
@@ -105,16 +106,16 @@
     </div>
     <div id="resume">
     </div>
-    <div class="top-heading animate__animated animate__fadeInUp">
+    <div data-aos="fade-up" class="top-heading">
       <h1>Resume</h1>
     </div>
     <div class="resume-main">
-      <div class="resume-pic animate__animated animate__fadeInLeft">
+      <div data-aos="fade-right" class="resume-pic">
         <img src="./assits/Online resume-bro.png" width="100%" alt="">
       </div>
-      <div class="resume-btn animate__animated animate__fadeInRight">
+      <div data-aos="fade-left" class="resume-btn">
         <button onclick="cvDownload()" class="btn">
-          <span class="btn-text-one">Resume</span>
+          <span  class="btn-text-one">Resume</span>
           <span class="btn-text-two">Download</span>
         </button>
       </div>
@@ -123,7 +124,7 @@
     <div id="projects">
     </div>
 
-    <div class="top-heading animate__animated animate__fadeInUp">
+    <div data-aos="fade-up" class="top-heading">
       <h1>Projects</h1>
     </div>
 
@@ -131,7 +132,7 @@
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/prodect-app.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Product Searching App</h5>
@@ -141,7 +142,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/Weather-app.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Weather App</h5>
@@ -151,7 +152,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/Alarm-app.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Reminder App (PWA)</h5>
@@ -161,7 +162,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/Quiz-app.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Quiz App</h5>
@@ -171,7 +172,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/calculator.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
@@ -181,7 +182,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white text-center">
+          <div data-aos="zoom-in-up" class="card bg-dark text-white text-center">
             <img src="./assits/stop-watch.JPG" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Stop Watch</h5>
@@ -224,7 +225,7 @@
 
 
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
