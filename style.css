@@ -7,7 +7,7 @@ body {
 
 .nav {
   color: #00a99d !important;
-  font-family: cursive;
+  font-family: inherit;
   font-size: 25px;
   font-weight: bolder;
 }
@@ -66,10 +66,12 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .about-text {
     width: 100%;
   }
-  .about-ani{
+
+  .about-ani {
     width: 100%;
   }
 }
@@ -87,11 +89,9 @@ body {
 .progress-bar2-html {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -117,11 +117,9 @@ body {
 .progress-bar2-boot {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -147,11 +145,9 @@ body {
 .progress-bar2-java {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -177,11 +173,9 @@ body {
 .progress-bar2-firebase {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -207,11 +201,9 @@ body {
 .progress-bar2-react {
   height: 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -253,7 +245,7 @@ body {
 
 /* Resume btn style  */
 .btn {
-  width: 140px;
+  width: 45%;
   height: 50px;
   background-color: #00a99d !important;
   /* background: linear-gradient(to top, #00154c, #12376e, #23487f); */
@@ -263,7 +255,7 @@ body {
   outline: none;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 15px 30px rgba(0, 169, 158, 0.5);
+  box-shadow: 0 15px 30px rgba(0, 169, 158, 0.37);
   overflow: hidden;
 }
 
@@ -304,38 +296,47 @@ body {
 
 
 @media only screen and (max-width: 425px) {
-.resume-main{
-  display: flex;
-  flex-direction: column;
+  .resume-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resume-pic {
+    width: 100%;
+  }
+
+  .resume-btn {
+    width: 100%;
+  }
+
+  .nav {
+    font-size: 15px !important;
+  }
 }
-.resume-pic{
-  width: 100%;
-}
-.resume-btn{
-  width: 100%;
-}
-.nav{
-  font-size: 15px !important;
-}
-}
-.card-img-top{
+
+.card-img-top {
   opacity: 0.7;
 }
-.project-main{
+
+.project-main {
   margin-top: 7%;
 }
-.card{
+
+.card {
   transition: transform 0.5s;
 }
-.card:hover{
-  box-shadow:  rgb(0, 169, 158) 0px 5px 15px;
+
+.card:hover {
+  box-shadow: rgb(0, 169, 158) 0px 5px 15px;
   box-shadow: rgba(0, 169, 158) 0px 30px 60px -12px, rgba(0, 169, 158, 0.267) 0px 18px 36px -18px;
   transform: scale(0.9) !important;
 }
-.icon{
+
+.icon {
   display: flex;
   justify-content: center;
 }
+
 .social-links {
   display: flex;
   flex-direction: row;
@@ -347,30 +348,39 @@ body {
 }
 
 .social-links .link a {
-  color:rgb(0, 168, 157);
-  
+  color: rgb(0, 168, 157);
+
 }
-.link{
+
+.link {
   font-size: xx-large;
 }
 
 .social-links .link a:hover {
   color: rgb(255, 8, 0);
 }
-hr{
+
+hr {
   color: #00a99d !important;
   height: 2px !important;
   background-color: #00a99d;
   box-shadow: rgb(0, 168, 157) 0px 2px 8px 0px;
 }
-.footer-heading{
+
+.footer-heading {
   text-align: center;
   color: #00a99d;
 }
-.footer{
+
+.footer {
   margin-top: 20%;
 }
-.email{
+
+.email {
+  font-weight: 200;
   text-align: center;
   color: #00a99d;
+}
+.email:hover{
+  color: rgb(255, 8, 0);
 }
