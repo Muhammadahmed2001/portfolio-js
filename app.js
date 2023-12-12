@@ -1,5 +1,10 @@
-
 AOS.init();
+setTimeout(() => {
+  let fullWeb = document.querySelector(".full-web")
+  let loaderAni = document.querySelector(".loader-ani")
+  fullWeb.style.display = "block" 
+  loaderAni.style.display = "none" 
+}, 3000);
 
 
 // let cvDownload = ()=>{
@@ -21,6 +26,7 @@ const CvButton = () => {
 
     // Create an anchor element
     const link = document.createElement("a");
+    link.setAttribute("target","_blank")
     link.href = pdfPath;
 
     // Set the download attribute to specify the file name

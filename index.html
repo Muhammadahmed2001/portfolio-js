@@ -18,17 +18,46 @@
 
 
   
-  <!-- Your main content goes here -->
-  <!-- <div >
-    <h1>Your Portfolio Website</h1>
-    <p>This is your main content...</p>
-  </div> -->
+  <div class="loader-ani">
+    <svg height="100vh" width="100vh" viewBox="0 0 128 128" class="loader">
+      <defs>
+        <clipPath id="loader-eyes">
+          <circle transform="rotate(-40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye1"></circle>
+          <circle transform="rotate(40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye2"></circle>
+        </clipPath>
+        <linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
+          <stop stop-color="#000" offset="0%"></stop>
+          <stop stop-color="#fff" offset="100%"></stop>
+        </linearGradient>
+        <mask id="loader-mask">
+          <rect fill="url(#loader-grad)" height="128" width="128" y="0" x="0"></rect>
+        </mask>
+      </defs>
+      <g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
+        <g>
+          <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(193,90%,50%)"></rect>
+          <g stroke="hsl(193,90%,50%)" fill="none">
+            <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+            <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+          </g>
+        </g>
+        <g mask="url(#loader-mask)">
+          <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(223,90%,50%)"></rect>
+          <g stroke="hsl(223,90%,50%)" fill="none">
+            <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+            <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
 
 
 
+<div class="full-web">
 
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container-fluid navbar-hide">
       <a class="navbar-brand nav" href="#">MUHAMMAD AHMED</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +80,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
           </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -65,8 +95,8 @@
         <div data-aos="fade-right" class="about-text">
           <h2>Hi, I Am <span class="name">Muhammad Ahmed</span></h2>
           <h5 className="detail-pra">
-            I was born on February 12th, 2001. I am a skilled web developer with a
-            passion for creating efficient and visually appealing websites.
+            I was born on 12 February 2001. I am a skilled web developer with a passion for creating efficient and visually appealing websites. I am always willing to learn new skills.
+            My biggest passion in life is using my technical knowledge to benefit other people and organizations.
           </h5>
         </div>
         <div data-aos="fade-left" class="about-ani">
@@ -207,6 +237,16 @@
             </div>
           </div>
         </div>
+        <div class="col">
+          <div data-aos="zoom-in-up" class="card h-100 bg-dark text-white text-center">
+            <img src="./assits/random-password.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <a target="_blank" href="https://random-password-muhammadahmed2001.surge.sh/" class="btn btn-primary">Visit
+                Website</a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -222,19 +262,20 @@
   <div class="social-links">
     <div class="link"><a target="_blank" href="https://www.facebook.com/profile.php?id=100009491629403"><i class="fa-brands fa-facebook"></i></a></div>
     <div class="link"><a target="_blank" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fa-brands fa-linkedin"></i></a></div>
-    <div class="link"><a target="_blank" href="whatsapp://send?text=Hello World!&phone=+923061668012"><i class="fa-brands fa-whatsapp"></i></a></div>
+    <div class="link"><a target="_blank" href="whatsapp://send?text=*السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُه*&phone=+923061668012"><i class="fa-brands fa-whatsapp"></i></a></div>
     <div class="link"><a target="_blank" href="https://github.com/Muhammadahmed2001"><i class="fa-brands fa-github"></i></a></div>
   </div>
 </div>
 <p class="email">muhammadahmedkarimnagda@gmail.com</p>
 </div>
+</div>
 
 
 
 
 
 
-
+<a target="_blank" href=""></a>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -242,7 +283,7 @@
   crossorigin="anonymous"></script>
   <script src="app.js"></script>
 
-
+  
 </body>
 
 </html>
