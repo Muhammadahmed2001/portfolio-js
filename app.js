@@ -1,9 +1,6 @@
 
 AOS.init();
-setTimeout(function() {
-    document.getElementById('loading-screen').style.display = 'none';
-    document.getElementById('main-content').style.display = 'block';
-  }, 2000);
+
 
 // let cvDownload = ()=>{
 //     let cvFilePath = "./assits/CV-Muhammad-Ahmed.pdf"
@@ -15,3 +12,25 @@ setTimeout(function() {
 //     downloadLink.click();
 
 // }
+
+
+const CvButton = () => {
+  const handleDownload = () => {
+    // Replace 'example.pdf' with the path to your PDF file.
+    const pdfPath = "./assits/ahmedKarim.pdf";
+
+    // Create an anchor element
+    const link = document.createElement("a");
+    link.href = pdfPath;
+
+    // Set the download attribute to specify the file name
+    link.download = "downloaded.pdf";
+
+    // Programmatically trigger a click event to start the download
+    link.click();
+  };
+  handleDownload()
+}
+
+
+
