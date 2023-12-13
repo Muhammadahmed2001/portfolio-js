@@ -4,7 +4,7 @@ setTimeout(() => {
   let loaderAni = document.querySelector(".loader-ani")
   fullWeb.style.display = "block" 
   loaderAni.style.display = "none" 
-}, 3000);
+}, 2700);
 
 
 // let cvDownload = ()=>{
