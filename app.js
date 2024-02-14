@@ -30,7 +30,7 @@ const CvButton = () => {
     link.href = pdfPath;
 
     // Set the download attribute to specify the file name
-    link.download = "downloaded.pdf";
+    link.download = "CV-Ahmed-karim.pdf";
 
     // Programmatically trigger a click event to start the download
     link.click();
